@@ -1,0 +1,98 @@
+# Bataille Navale
+
+Technologies: Java, MVC, Swing, Design Patterns, IA
+Contexte: Projet universitaire - Licence 2 Informatique - Universite de Caen
+Date: Avril 2025
+Equipe: 4 developpeurs
+
+## Description
+
+Implementation complete du jeu de Bataille Navale avec une architecture MVC rigoureuse, interface graphique Swing et IA intelligente. Developpe dans le cadre du module "Design Patterns & Interfaces Graphiques".
+
+## Architecture
+
+Pattern MVC:
+- Modele: Game, Mer, Navire, Player, Tir, Position
+- Vue: GameView, MerView, StatusPanel
+- Controleur: Gestion des evenements et coordination modele-vue
+
+Design Patterns Implementes:
+- Observer: Synchronisation modele-vue
+- Strategy: Strategies d'IA (Random vs Intelligente)
+- Factory: Creation des joueurs
+- Template Method: Classe AbstractPlayer
+
+## Mes Contributions
+
+Modélisation & Conception:
+- Conception UML complete du systeme
+- Modelisation des diagrammes de classes et de sequences
+- Architecture MVC rigoureuse
+
+Regles du Jeu & Logique Metier:
+- Implementation complete des regles de la bataille navale
+- Systeme de validation des tirs et des placements
+- Detection des navires coules
+- Gestion des etats de jeu (en cours, termine, gagnant)
+
+Intelligence Artificielle:
+- Implementation de l'IA Random: strategie aleatoire basique
+- Developpement de l'IA Avancee: algorithme de chasse intelligent
+- Systeme de memorisation des tirs reussis
+- Strategie de concentration des attaques autour des cibles touchees
+
+Algorithmes de Jeu:
+- Placement aleatoire des navires avec contraintes
+- Verification des collisions et debordements
+- Orientation aleatoire (horizontal/vertical)
+- Optimisation du placement des grands navires
+
+## Fonctionnalites Implementees
+
+Regles du Jeu:
+- Validation des placements de navires
+- Detection des tirs touches/coules
+- Gestion des tours de jeu
+- Verification des conditions de victoire
+- Systeme de positions et coordonnees
+
+Strategies IA:
+- IA Random: Selection aleatoire parmi cases disponibles
+- IA Avancee: 
+  - Memorisation des tirs reussis
+  - Concentration des attaques autour des cibles
+  - Eviction des cases deja attaquees
+  - Strategie de chasse progressive
+
+## Installation et Execution
+
+Prerequis:
+- Java JDK 8 ou superieur
+- Apache Ant (pour le build)
+
+Commandes de Build:
+ant init      # Initialisation du projet
+ant compile   # Compilation
+ant run       # Execution (console ou graphique)
+ant javadoc   # Generation documentation
+ant packaging # Creation du JAR
+ant clean     # Nettoyage
+
+## Competences Developpees
+
+Techniques:
+- Modelisation UML avancee
+- Conception Orientee Objet rigoureuse
+- Algorithmie et intelligence artificielle
+- Architecture MVC professionnelle
+- Design Patterns Strategy et Observer
+- Regles metier complexes
+
+Transversales:
+- Travail d'equipe en groupe de 4
+- Coordination technique
+- Documentation professionnelle
+
+---
+
+Developpe avec rigueur dans le cadre de la Licence 2 Informatique - Universite de Caen Normandie
